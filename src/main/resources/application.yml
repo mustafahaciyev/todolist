@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: 1234
+    username: todolist
+    url: jdbc:postgresql://localhost:5430/
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
